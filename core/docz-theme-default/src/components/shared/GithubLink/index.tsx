@@ -32,10 +32,12 @@ const Link = styled.a`
       animation: ${octocatWave} 560ms ease-in-out;
     }
   }
+
+  z-index: 2;
 `
 
 const Svg = styled.svg`
-  z-index: 99;
+  z-index: 1;
   fill: ${get('colors.primary')};
   color: ${get('colors.background')};
   position: absolute;
