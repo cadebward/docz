@@ -44,6 +44,7 @@ const EditPage = styled(ButtonLink.withComponent('a'))`
   color: ${get('colors.text')};
   text-decoration: none;
   text-transform: uppercase;
+  z-index: 100;
 
   &:hover {
     opacity: 1;
